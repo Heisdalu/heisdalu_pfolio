@@ -3,7 +3,9 @@ import SideBar from "./SideBar";
 
 const HamBurger: FC = () => {
   const [clicked, setClicked] = useState(false);
-  const clickHandler: MouseEventHandler<HTMLButtonElement> = () => {
+  const clickHandler: MouseEventHandler<
+    HTMLButtonElement | HTMLDivElement
+  > = () => {
     setClicked((prev) => !prev);
   };
 
@@ -11,7 +13,7 @@ const HamBurger: FC = () => {
     <>
       <button
         onClick={clickHandler}
-        className="md:hidden ml-auto border-white py-[1] px-1 space-y-[0.3125rem]"
+        className="md:hidden ml-auto py-[1] px-1 space-y-[0.3125rem]"
         aria-label="hamburger navigation"
       >
         <div
@@ -32,6 +34,13 @@ const HamBurger: FC = () => {
       </button>
 
       <SideBar clicked={clicked} />
+      {clicked && (
+        <div
+          onClick={clickHandler}
+          aria-label="modal overlay"
+          className="bg-transparent h-[100vh] absolute w-[100%] left-[0] top-[0] z-[2] md:hidden"
+        ></div>
+      )}
     </>
   );
 };
