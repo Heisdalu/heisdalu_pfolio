@@ -8,9 +8,9 @@ const SideBarBtn: FC<{ title: string }> = ({ title }) => {
   const btnpath = title === "home" ? "/" : `/${title}`;
 
   return (
-    <Link href={btnpath} className="pl-1 md:px-1 flex items-center relative">
+    <Link href={btnpath} className="md:px-1 flex items-center relative">
       {pathname === btnpath && (
-        <span className="rounded-full left-[-5px] absolute block h-[5px] w-[5px] bg-yellow md:bottom-[0] md:left-[50%] md:translate-x-[-50%]"></span>
+        <span className="rounded-full left-[-20px] absolute block h-[5px] w-[5px] bg-yellow md:bottom-[0] md:left-[50%] md:translate-x-[-50%]"></span>
       )}
       <span
         className={`text-[1.25rem] md:text-[1.125rem] ${

@@ -13,7 +13,7 @@ const HamBurger: FC = () => {
     <>
       <button
         onClick={clickHandler}
-        className="md:hidden ml-auto py-[1] px-1 space-y-[0.3125rem]"
+        className="md:hidden ml-auto py-[1] space-y-[0.3125rem]"
         aria-label="hamburger navigation"
       >
         <div

@@ -12,6 +12,13 @@ const config: Config = {
       1: "1rem",
       1.5: "1.5rem",
       2: "2rem",
+      64: "4rem",
+      96: "6rem",
+      80: "5rem",
+    },
+    screens: {
+      md: "768px",
+      lg: "1000px",
     },
 
     extend: {
@@ -29,6 +36,7 @@ const config: Config = {
       },
       colors: {
         yellow: "#F4FA94",
+        lineBlack: "#ffffff1f",
       },
     },
   },
