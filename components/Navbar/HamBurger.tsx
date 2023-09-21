@@ -31,7 +31,7 @@ const HamBurger: FC = () => {
         ></div>
       </button>
 
-      <SideBar />
+      <SideBar clicked={clicked} />
     </>
   );
 };
