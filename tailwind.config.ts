@@ -19,6 +19,7 @@ const config: Config = {
     screens: {
       md: "768px",
       lg: "1000px",
+      vlg: "1200px",
     },
 
     extend: {
@@ -37,6 +38,8 @@ const config: Config = {
       colors: {
         yellow: "#F4FA94",
         lineBlack: "#ffffff1f",
+        recBlack: "#ffffff0f",
+        opWhite: "#ffffffa3",
       },
     },
   },

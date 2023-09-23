@@ -36,9 +36,27 @@
   transition: all 0.5s 0.1s;
 }
 
-
 .color {
-  color: rgba(0, 0, 0, 0.404);
-  color: #ffffff1f;
-;
+  color: #00000067;
+  color: #ffffff80;
+}
+
+.lmao {
+  background: radial-gradient(
+    circle farthest-corner at 50% 50%,
+    hsla(0, 0%, 100%, 0.04),
+    hsla(0, 0%, 100%, 0)
+  );
+}
+
+@media screen and (hover: hover) {
+  .animate-card img {
+    transform: scale(1);
+    transition: transform 1s;
+  }
+
+  .animate-card:hover img {
+    transform: scale(1.03);
+    transition: transform 1s;
+  }
 }
