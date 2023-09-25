@@ -22,7 +22,7 @@ interface WrapperProps {
 
 const Wrapper: FC<WrapperProps> = ({ children }) => {
   return (
-    <div className={`relative bg-spb py-1 ${clashDisplay.className}`}>
+    <div className={`relative bg-spb pb-1 ${clashDisplay.className}`}>
       {children}
     </div>
   );

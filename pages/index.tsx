@@ -7,7 +7,7 @@ import Projects from "../components/Projects/Projects";
 export default function Home() {
   return (
     <Wrapper>
-      <div className={`font-[500] text-[32px]`}>
+      <div className="bg-spb z-[1111] py-1 font-[500] text-[32px] sticky top-[0]">
         <Navbar />
       </div>
 
@@ -49,10 +49,13 @@ export default function Home() {
         </section>
 
         {/* selected works */}
-        <section className="wrapperGen space-y-[2.46875rem] bg-recBlack rounded-[24px] md:space-y-48">
+        <section
+          id="works"
+          className="wrapperGen space-y-[2.46875rem] bg-recBlack rounded-[24px] md:space-y-48"
+        >
           <div className="flex flex-col space-y-[0.711875rem] md:flex-row md:space-y-[0] md:items-end">
             <Heading
-              title="Selected works"
+              title="selected works"
               style="text-[1.9375rem] leading-[38.4px] md:text-[2.4375rem] md:tracking-[0.01875rem]"
             />
 
@@ -94,7 +97,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-recBlack wrapperGen rounded-[12px]  md:mx-64 vlg:mx-80 text-center">
+        <section
+          id="contact"
+          className="bg-recBlack wrapperGen rounded-[12px]  md:mx-64 vlg:mx-80 text-center"
+        >
           <div className="space-y-[40px] md:space-y-[49px]">
             <h1 className="uppercase text-[2.625rem] leading-[42px] tracking-[1.05px] flex flex-col font-medium text-white  md:text-[6rem] md:leading-[96px] md:tracking-[2.4px]">
               <span>Let’s work</span>

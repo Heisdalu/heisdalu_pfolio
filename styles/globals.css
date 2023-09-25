@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+  html {
+    scroll-behavior: smooth;
+  }
+
   .wrapperGen {
     @apply py-64 px-[2.5rem] md:px-64 md:py-80 vlg:px-80 vlg:py-144;
   }

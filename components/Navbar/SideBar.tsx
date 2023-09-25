@@ -1,13 +1,18 @@
-import { FC, useEffect, useState } from "react";
+import { FC, useEffect, useState, MouseEventHandler } from "react";
 import Logo from "./Logo";
 import SideBarBtn from "./SideBarBtn";
-import { title } from "process";
 
-const SideBar: FC<{ clicked: boolean }> = ({ clicked }) => {
+interface Props {
+  toggleClicked: Function;
+  clicked: boolean;
+}
+
+const SideBar: FC<Props> = ({ clicked, toggleClicked }) => {
   const [url, setUrl] = useState("#");
 
   const chnageState = (name: any): void => {
     setUrl(name);
+    toggleClicked();
   };
 
   useEffect(() => {

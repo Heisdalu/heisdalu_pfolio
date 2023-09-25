@@ -4,7 +4,7 @@ import SideBar from "./SideBar";
 const HamBurger: FC = () => {
   const [clicked, setClicked] = useState(false);
   const clickHandler: MouseEventHandler<
-    HTMLButtonElement | HTMLDivElement
+    HTMLButtonElement | HTMLDivElement | void
   > = () => {
     setClicked((prev) => !prev);
   };
@@ -33,7 +33,7 @@ const HamBurger: FC = () => {
         ></div>
       </button>
 
-      <SideBar clicked={clicked} />
+      <SideBar clicked={clicked} toggleClicked={clickHandler} />
       {clicked && (
         <div
           onClick={clickHandler}
