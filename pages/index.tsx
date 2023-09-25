@@ -141,6 +141,18 @@ export default function Home() {
               Twitter
             </a>
           </div>
+          <div className="mt-2 md:mt-[3rem]">
+            Inspired by{" "}
+            <a
+              rel="noreferrer"
+              className="text-yellow"
+              target="_blank"
+              href="https://www.bryntaylor.co.uk/"
+            >
+              {" "}
+              Bryn Taylor
+            </a>
+          </div>
         </footer>
       </div>
     </Wrapper>
