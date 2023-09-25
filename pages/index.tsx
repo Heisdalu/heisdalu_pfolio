@@ -67,20 +67,21 @@ export default function Home() {
           <Projects />
         </section>
 
-        <section className="wrapperGen space-y-[1.961875rem] md:grid md:grid-cols-2 md:space-x-2 md:space-y-[1.5rem]">
+        <section className="wrapperGen space-y-[1.961875rem] md:grid md:grid-cols-2 md:space-x-2 md:space-y-[1rem]">
           <Heading
             title="Technologies"
             style="text-[1.6875rem] md:text-[2.125rem]"
           />
           <div className="text-white text-[1rem] border-white space-y-[1.5rem]">
-            <p className="">
+            <p className="tracking-[0.27px] md:tracking-[0.38px]">
               Here are the tools & technologies i use in creating magic:
             </p>
 
-            <ul className="text-opWhite list-disc pl-[1.5rem] space-y-1 md:flex md:space-x-[0] flex-wrap md:pl-[2rem] md:gap-x-[2.3rem] md:gap-y-1 md:max-w-[500px] md:space-y-[0]">
+            <ul className="text-opWhite list-disc pl-[1.5rem] space-y-1 md:flex md:space-x-[0] flex-wrap md:pl-[2rem] md:gap-x-[2.3rem] md:gap-y-1 md:max-w-[500px] md:space-y-[0] tracking-[0.27px] md:tracking-[0.3px]">
+              <li>TypeScript / JavaScript</li>
               <li>Next.js</li>
               <li>React.js</li>
-              <li>TypeScript / JavaScript</li>
+              <li>Redux / ReduxToolkit</li>
               <li>CSS3</li>
               <li>Tailwind</li>
               <li>Styled Components</li>
@@ -92,6 +93,50 @@ export default function Home() {
             </ul>
           </div>
         </section>
+
+        <section className="bg-recBlack wrapperGen rounded-[12px]  md:mx-64 vlg:mx-80 text-center">
+          <div className="space-y-[40px] md:space-y-[49px]">
+            <h1 className="uppercase text-[2.625rem] leading-[42px] tracking-[1.05px] flex flex-col font-medium text-white  md:text-[6rem] md:leading-[96px] md:tracking-[2.4px]">
+              <span>Let’s work</span>
+              <span>together</span>
+            </h1>
+            <a
+              href=""
+              className="block text-[1.3rem] text-yellow underline break-all md:text-[2rem] lg:text-[3rem]"
+            >
+              divineobi07@gmail.com
+            </a>
+          </div>
+        </section>
+
+        <footer className="wrapperGen text-center text-white ">
+          <div className="flex justify-center flex-col items-center md:flex-row space-y-[1.5rem] md:space-y-[0] md:space-x-[2.5rem]">
+            <a
+              href="https://github.com/Heisdalu"
+              rel="noreferrer"
+              target="_blank"
+              className="hover:text-opWhite"
+            >
+              Github
+            </a>
+            <a
+              href="https://www.linkedin.com/in/divine-obi/"
+              rel="noreferrer"
+              className="hover:text-opWhite"
+              target="_blank"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://twitter.com/Dhevine_0X"
+              rel="noreferrer"
+              target="_blank"
+              className="hover:text-opWhite"
+            >
+              Twitter
+            </a>
+          </div>
+        </footer>
       </div>
     </Wrapper>
   );
