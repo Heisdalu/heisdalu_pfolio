@@ -12,9 +12,11 @@ const config: Config = {
       1: "1rem",
       1.5: "1.5rem",
       2: "2rem",
+      48: "3rem",
       64: "4rem",
       96: "6rem",
       80: "5rem",
+      144: "9rem",
     },
     screens: {
       md: "768px",
