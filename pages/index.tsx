@@ -29,7 +29,7 @@ export default function Home() {
         {/* About me */}
         <section className="wrapperPadding border-t-[1px] border-lineBlack space-y-[1.961875rem] mx-[2.5rem] text-white md:grid md:grid-cols-2 md:space-x-2 md:space-y-0.5 md:mx-64 vlg:mx-80">
           <Heading title="about" style="text-[1.8125rem] md:text-[2.3125rem]" />
-          <div className="max-w-[500px] md:max-w-[none] border1 border-white ">
+          <div className="max-w-[800px] md:max-w-[none]">
             <p className="font-normal text-[1rem] leading-[1.6875rem] tracking-[0.016875rem] md:text-[1.0625rem] md:leading-[1.6875rem] md:tracking-[0.016875rem] vlg:leading-[1.875rem] vlg:tracking-[0.01875rem]">
               I am Divine Obi aka <span className="text-yellow">heisdalu</span>,
               a skilled frontend developer known for crafting captivating user
@@ -41,7 +41,7 @@ export default function Home() {
             <a
               href="/ggg"
               target="_blank"
-              className="block uppercase text-white text-[1.0625rem] tracking-[0.0625rem] font-medium w-[100%] text-center mt-2 py-[0.9375rem] rounded-[6px] bg-lineBlack md:max-w-[250px] md:text-[1.0625rem]"
+              className="block uppercase text-white text-[1.0625rem] tracking-[0.0625rem] font-medium w-[100%] text-center mt-2 py-[0.9375rem] rounded-[6px] bg-lineBlack md:max-w-[250px] md:text-[1.0625rem] hover:text-opWhite"
             >
               Browse Resume
             </a>
@@ -50,7 +50,7 @@ export default function Home() {
 
         {/* selected works */}
         <section className="wrapperGen space-y-[2.46875rem] bg-recBlack rounded-[24px] md:space-y-48">
-          <div className="border-1 border-white flex flex-col space-y-[0.711875rem] md:flex-row md:space-y-[0] md:items-end">
+          <div className="flex flex-col space-y-[0.711875rem] md:flex-row md:space-y-[0] md:items-end">
             <Heading
               title="Selected works"
               style="text-[1.9375rem] leading-[38.4px] md:text-[2.4375rem] md:tracking-[0.01875rem]"
@@ -72,7 +72,7 @@ export default function Home() {
             title="Technologies"
             style="text-[1.6875rem] md:text-[2.125rem]"
           />
-          <div className="text-white text-[1rem] border-white space-y-[1.5rem]">
+          <div className="text-white text-[1rem] space-y-[1.5rem]">
             <p className="tracking-[0.27px] md:tracking-[0.38px]">
               Here are the tools & technologies i use in creating magic:
             </p>

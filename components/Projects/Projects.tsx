@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Projects: FC = (): JSX.Element => {
   return (
-    <div className="space-y-2 md:grid md:space-y-[0] md:grid-cols-2 border md:[grid-gap:2rem] lg:[grid-gap:4rem]">
+    <div className="space-y-2 md:grid md:space-y-[0] md:grid-cols-2 md:[grid-gap:2rem] lg:[grid-gap:4rem]">
       {/* 1 picture */}
-      <div className="animate-card border-1 border-r-red-400 rounded-[6px] overflow-hidden bg-[#2A2A29]">
+      <div className="animate-card rounded-[6px] overflow-hidden bg-[#2A2A29]">
         <div className="relative innerDiv max-h-[300px] md:h-[350px] overflow-hidden lg:max-h-[653px]">
           <Image
             src="/lol.png"
@@ -25,20 +25,20 @@ const Projects: FC = (): JSX.Element => {
             </span>
           </h1>
           <div className="text-[1rem] font-normal text-opWhite flex flex-wrap">
-            <span className="border- border-white mr-0.5 py-[3px]">
+            <span className=" mr-0.5 py-[3px]">
               Next.js
             </span>
-            <span className="border- border-white mr-0.5 py-[3px]">
+            <span className="mr-0.5 py-[3px]">
               TypeScript
             </span>
-            <span className="border- border-white mr-0.5 py-[3px]">
+            <span className="mr-0.5 py-[3px]">
               Firebase
             </span>
-            <span className="border- border-white mr-0.5 py-[3px]">
+            <span className="mr-0.5 py-[3px]">
               Chart.js
             </span>
           </div>
-          <div className="borde space-x-1 mt-1 flex">
+          <div className="space-x-1 mt-1 flex">
             <a
               href="https://dracora.vercel.app/"
               rel="noreferrer"
@@ -60,8 +60,8 @@ const Projects: FC = (): JSX.Element => {
       </div>
 
       {/* 2 picture */}
-      <div className="animate-card md:self-start border-1 border-r-red-400 rounded-[6px] overflow-hidden bg-[#2A2A29]">
-        <div className="border-[0px] border-yellow max-h-[210px] md:h-[250px] overflow-hidden lg:max-h-[653px]">
+      <div className="animate-card md:self-start rounded-[6px] overflow-hidden bg-[#2A2A29]">
+        <div className="max-h-[210px] md:h-[250px] overflow-hidden lg:max-h-[653px]">
           <Image
             src="/jo.png"
             height={0}
@@ -80,23 +80,23 @@ const Projects: FC = (): JSX.Element => {
             </span>
           </h1>
           <div className="text-[1rem] font-normal text-opWhite flex flex-wrap">
-            <span className="border- border-white mr-0.5 py-[3px]">
+            <span className="mr-0.5 py-[3px]">
               React.js
             </span>
-            <span className="border- border-white mr-0.5 py-[3px]">
+            <span className="mr-0.5 py-[3px]">
               ReduxToolkit
             </span>
-            <span className="border- border-white mr-0.5 py-[3px]">
+            <span className="mr-0.5 py-[3px]">
               JavaScript
             </span>
-            <span className="border- border-white mr-0.5 py-[3px]">
+            <span className="mr-0.5 py-[3px]">
               Firebase
             </span>
-            <span className="border- border-white mr-0.5 py-[3px]">
+            <span className="mr-0.5 py-[3px]">
               Tailwind
             </span>
           </div>
-          <div className="borde space-x-1 mt-1 flex">
+          <div className="space-x-1 mt-1 flex">
             <a
               href="https://retro-ecommerce.vercel.app/"
               rel="noreferrer"
@@ -118,7 +118,7 @@ const Projects: FC = (): JSX.Element => {
       </div>
 
       {/* 3 picture */}
-      <div className="animate-card border-1 border-r-red-400 rounded-[6px] overflow-hidden bg-[#2A2A29]">
+      <div className="animate-card rounded-[6px] overflow-hidden bg-[#2A2A29]">
         <div className="max-h-[210px] md:h-[285px] overflow-hidden lg:max-h-[653px]">
           <Image
             src="/view.png"
@@ -138,13 +138,13 @@ const Projects: FC = (): JSX.Element => {
             </span>
           </h1>
           <div className="text-[1rem] font-normal text-opWhite flex flex-wrap">
-            <span className="border- border-white mr-0.5 py-[3px]">
+            <span className="mr-0.5 py-[3px]">
               React.js
             </span>
-            <span className="border- border-white mr-0.5 py-[3px]">
+            <span className="mr-0.5 py-[3px]">
               JavaScript
             </span>
-            <span className="border- border-white mr-0.5 py-[3px]">CSS3</span>
+            <span className="mr-0.5 py-[3px]">CSS3</span>
           </div>
           <div className="borde space-x-1 mt-1 flex">
             <a
@@ -168,7 +168,7 @@ const Projects: FC = (): JSX.Element => {
       </div>
 
       {/* 4 picture */}
-      <div className="animate-card border-1 border-r-red-400 rounded-[6px] overflow-hidden bg-[#2A2A29] md:translate-y-[-5.6rem] lg:translate-y-[-8.2rem]">
+      <div className="animate-card rounded-[6px] overflow-hidden bg-[#2A2A29] md:translate-y-[-5.6rem] lg:translate-y-[-8.2rem]">
         <div className="max-h-[210px] md:h-[285px] overflow-hidden lg:max-h-[653px]">
           <Image
             src="/boldo.png"
@@ -188,14 +188,14 @@ const Projects: FC = (): JSX.Element => {
             </span>
           </h1>
           <div className="text-[1rem] font-normal text-opWhite flex flex-wrap">
-            <span className="border- border-white mr-0.5 py-[3px]">
+            <span className="mr-0.5 py-[3px]">
               React.js
             </span>
-            <span className="border- border-white mr-0.5 py-[3px]">
+            <span className="mr-0.5 py-[3px]">
               JavaScript
             </span>
-            <span className="border- border-white mr-0.5 py-[3px]">CSS3</span>
-            <span className="border- border-white mr-0.5 py-[3px]">
+            <span className="mr-0.5 py-[3px]">CSS3</span>
+            <span className="mr-0.5 py-[3px]">
               Swiper.js
             </span>
           </div>
@@ -221,7 +221,7 @@ const Projects: FC = (): JSX.Element => {
       </div>
 
       {/* 5 */}
-      <div className="animate-card md:self-start border-1 border-r-red-400 rounded-[6px] overflow-hidden bg-[#2A2A29]">
+      <div className="animate-card md:self-start rounded-[6px] overflow-hidden bg-[#2A2A29]">
         <div className="max-h-[210px] md:h-[200px]  overflow-hidden lg:max-h-[653px]">
           <Image
             src="/wordle.png"
@@ -236,11 +236,11 @@ const Projects: FC = (): JSX.Element => {
         <div className="p-[1.25rem] tracking-[0.01875rem]  text-1 md:text-[1.2rem] md:tracking-[0.0225rem]">
           <h1 className="text-white font-medium">Wordle Clone</h1>
           <div className="text-[1rem] font-normal text-opWhite flex flex-wrap">
-            <span className="border- border-white mr-0.5 py-[3px]">React</span>
-            <span className="border- border-white mr-0.5 py-[3px]">
+            <span className="mr-0.5 py-[3px]">React</span>
+            <span className="mr-0.5 py-[3px]">
               JavaScript
             </span>
-            <span className="border- border-white mr-0.5 py-[3px]">
+            <span className="mr-0.5 py-[3px]">
               Tailwind
             </span>
           </div>
@@ -266,7 +266,7 @@ const Projects: FC = (): JSX.Element => {
       </div>
 
       {/* 6 */}
-      <div className="animate-card md:translate-y-[-5.6rem] lg:translate-y-[-8.2rem] border-1 border-r-red-400 rounded-[6px] overflow-hidden bg-[#2A2A29]">
+      <div className="animate-card md:translate-y-[-5.6rem] lg:translate-y-[-8.2rem] rounded-[6px] overflow-hidden bg-[#2A2A29]">
         <div className="max-h-[300px] md:h-[190px] overflow-hidden lg:max-h-[653px]">
           <Image
             src="/Wordlens.png"
@@ -286,18 +286,18 @@ const Projects: FC = (): JSX.Element => {
             </span>
           </h1>
           <div className="text-[1rem] font-normal text-opWhite flex flex-wrap">
-            <span className="border- border-white mr-0.5 py-[3px]">
+            <span className="mr-0.5 py-[3px]">
               React.js
             </span>
-            <span className="border- border-white mr-0.5 py-[3px]">
+            <span className="mr-0.5 py-[3px]">
               JavaScript
             </span>
-            <span className="border- border-white mr-0.5 py-[3px]">
+            <span className="mr-0.5 py-[3px]">
               WebSpeech-Api
             </span>
-            <span className="border- border-white mr-0.5 py-[3px]">CSS3</span>
+            <span className="mr-0.5 py-[3px]">CSS3</span>
           </div>
-          <div className="borde space-x-1 mt-1 flex">
+          <div className="space-x-1 mt-1 flex">
             <a
               href="https://wordlens.netlify.app/"
               rel="noreferrer"

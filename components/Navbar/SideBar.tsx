@@ -1,8 +1,20 @@
-import { FC } from "react";
+import { FC, useEffect, useState } from "react";
 import Logo from "./Logo";
 import SideBarBtn from "./SideBarBtn";
+import { title } from "process";
 
 const SideBar: FC<{ clicked: boolean }> = ({ clicked }) => {
+  const [url, setUrl] = useState("#");
+
+  const chnageState = (name: any): void => {
+    setUrl(name);
+  };
+
+  useEffect(() => {
+    const value = window.location.hash === "" ? "#" : window.location.hash;
+    setUrl(value);
+  }, []);
+
   return (
     <div
       className={`z-[3] ${
@@ -13,9 +25,9 @@ const SideBar: FC<{ clicked: boolean }> = ({ clicked }) => {
         <Logo />
       </div>
 
-      <SideBarBtn title={"home"} />
-      <SideBarBtn title={"projects"} />
-      <SideBarBtn title={"contact"} />
+      <SideBarBtn title={"home"} changeFunc={chnageState} url={url} />
+      <SideBarBtn title={"works"} changeFunc={chnageState} url={url} />
+      <SideBarBtn title={"contact"} changeFunc={chnageState} url={url} />
     </div>
   );
 };
