@@ -6,7 +6,6 @@ interface Props {
 }
 
 const SideBarBtn: FC<Props> = ({ title, changeFunc, url }) => {
-  // console.log(title, url);
 
   let timeout: any;
   const eventFunc = async () => {

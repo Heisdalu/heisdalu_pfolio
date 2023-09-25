@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Wrapper from "@/components/Wrapper/Wrapper";
 import { Navbar } from "@/components/Navbar/Navbar";
 import Heading from "@/components/Heading/Heading";
