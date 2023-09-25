@@ -66,6 +66,32 @@ export default function Home() {
 
           <Projects />
         </section>
+
+        <section className="wrapperGen space-y-[1.961875rem] md:grid md:grid-cols-2 md:space-x-2 md:space-y-[1.5rem]">
+          <Heading
+            title="Technologies"
+            style="text-[1.6875rem] md:text-[2.125rem]"
+          />
+          <div className="text-white text-[1rem] border-white space-y-[1.5rem]">
+            <p className="">
+              Here are the tools & technologies i use in creating magic:
+            </p>
+
+            <ul className="text-opWhite list-disc pl-[1.5rem] space-y-1 md:flex md:space-x-[0] flex-wrap md:pl-[2rem] md:gap-x-[2.3rem] md:gap-y-1 md:max-w-[500px] md:space-y-[0]">
+              <li>Next.js</li>
+              <li>React.js</li>
+              <li>TypeScript / JavaScript</li>
+              <li>CSS3</li>
+              <li>Tailwind</li>
+              <li>Styled Components</li>
+              <li>Scss</li>
+              <li>Firebase</li>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+        </section>
       </div>
     </Wrapper>
   );
