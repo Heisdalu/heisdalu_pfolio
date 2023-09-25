@@ -106,7 +106,7 @@ export default function Home() {
               <span>together</span>
             </h1>
             <a
-              href=""
+              href="mailto:divineobi07@gmail.com"
               className="block text-[1.3rem] text-yellow underline break-all md:text-[2rem] lg:text-[3rem]"
             >
               divineobi07@gmail.com
