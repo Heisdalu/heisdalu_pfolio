@@ -44,7 +44,7 @@ export default function Home() {
                 solver, constant learner and lover of dogs.
               </p>
               <a
-                href="https://drive.google.com/file/d/1BEOTcL33-_Ste6M6LJSOwjxJ3PkzTWJ6/view?usp=sharing"
+                href="https://drive.google.com/file/d/16kOazL7TdyB2SHDacqwFyMpCylLD6cj0/view?usp=drive_link"
                 target="_blank"
                 className="block uppercase text-white text-[1.0625rem] tracking-[0.0625rem] font-medium w-[100%] text-center mt-2 py-[0.9375rem] rounded-[6px] bg-lineBlack md:max-w-[250px] md:text-[1.0625rem] hover:text-opWhite"
               >
