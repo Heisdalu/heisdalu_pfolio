@@ -49,9 +49,9 @@ export const data = [
   },
   {
     imagePath: "find.png",
-    title: "Findtread",
+    title: "Findtrend",
     subTitle:
-      "A Creative Landing Page that illustrates how Findtread helps with minimizing your tabs",
+      "A Creative Landing Page that illustrates how Findtrend helps with minimizing your tabs",
     tools: [
       "Next.js",
       "Tailwind",
