@@ -25,18 +25,10 @@ const Projects: FC = (): JSX.Element => {
             </span>
           </h1>
           <div className="text-[1rem] font-normal text-opWhite flex flex-wrap">
-            <span className=" mr-0.5 py-[3px]">
-              Next.js
-            </span>
-            <span className="mr-0.5 py-[3px]">
-              TypeScript
-            </span>
-            <span className="mr-0.5 py-[3px]">
-              Firebase
-            </span>
-            <span className="mr-0.5 py-[3px]">
-              Chart.js
-            </span>
+            <span className=" mr-0.5 py-[3px]">Next.js</span>
+            <span className="mr-0.5 py-[3px]">TypeScript</span>
+            <span className="mr-0.5 py-[3px]">Firebase</span>
+            <span className="mr-0.5 py-[3px]">Chart.js</span>
           </div>
           <div className="space-x-1 mt-1 flex">
             <a
@@ -80,21 +72,11 @@ const Projects: FC = (): JSX.Element => {
             </span>
           </h1>
           <div className="text-[1rem] font-normal text-opWhite flex flex-wrap">
-            <span className="mr-0.5 py-[3px]">
-              React.js
-            </span>
-            <span className="mr-0.5 py-[3px]">
-              ReduxToolkit
-            </span>
-            <span className="mr-0.5 py-[3px]">
-              JavaScript
-            </span>
-            <span className="mr-0.5 py-[3px]">
-              Firebase
-            </span>
-            <span className="mr-0.5 py-[3px]">
-              Tailwind
-            </span>
+            <span className="mr-0.5 py-[3px]">React.js</span>
+            <span className="mr-0.5 py-[3px]">ReduxToolkit</span>
+            <span className="mr-0.5 py-[3px]">JavaScript</span>
+            <span className="mr-0.5 py-[3px]">Firebase</span>
+            <span className="mr-0.5 py-[3px]">Tailwind</span>
           </div>
           <div className="space-x-1 mt-1 flex">
             <a
@@ -134,21 +116,17 @@ const Projects: FC = (): JSX.Element => {
           <h1 className="text-white font-medium flex flex-col">
             Country View
             <span className="font-[400] text-[#ffffffdf]">
-              Broswe Vital Informations About Countries
+              Browse Vital Informations About Countries
             </span>
           </h1>
           <div className="text-[1rem] font-normal text-opWhite flex flex-wrap">
-            <span className="mr-0.5 py-[3px]">
-              React.js
-            </span>
-            <span className="mr-0.5 py-[3px]">
-              JavaScript
-            </span>
+            <span className="mr-0.5 py-[3px]">React.js</span>
+            <span className="mr-0.5 py-[3px]">JavaScript</span>
             <span className="mr-0.5 py-[3px]">CSS3</span>
           </div>
           <div className="borde space-x-1 mt-1 flex">
             <a
-              href="https://dalu-country-view.vercel.app/"
+              href="https://country-view-er8gcmz3f-dhevine.vercel.app/"
               rel="noreferrer"
               target="_blank"
               className="text-white px-1 py-0.5 rounded-[6px] border"
@@ -188,16 +166,10 @@ const Projects: FC = (): JSX.Element => {
             </span>
           </h1>
           <div className="text-[1rem] font-normal text-opWhite flex flex-wrap">
-            <span className="mr-0.5 py-[3px]">
-              React.js
-            </span>
-            <span className="mr-0.5 py-[3px]">
-              JavaScript
-            </span>
+            <span className="mr-0.5 py-[3px]">React.js</span>
+            <span className="mr-0.5 py-[3px]">JavaScript</span>
             <span className="mr-0.5 py-[3px]">CSS3</span>
-            <span className="mr-0.5 py-[3px]">
-              Swiper.js
-            </span>
+            <span className="mr-0.5 py-[3px]">Swiper.js</span>
           </div>
           <div className="borde space-x-1 mt-1 flex">
             <a
@@ -237,12 +209,8 @@ const Projects: FC = (): JSX.Element => {
           <h1 className="text-white font-medium">Wordle Clone</h1>
           <div className="text-[1rem] font-normal text-opWhite flex flex-wrap">
             <span className="mr-0.5 py-[3px]">React</span>
-            <span className="mr-0.5 py-[3px]">
-              JavaScript
-            </span>
-            <span className="mr-0.5 py-[3px]">
-              Tailwind
-            </span>
+            <span className="mr-0.5 py-[3px]">JavaScript</span>
+            <span className="mr-0.5 py-[3px]">Tailwind</span>
           </div>
           <div className="space-x-1 mt-1 flex">
             <a
@@ -286,15 +254,9 @@ const Projects: FC = (): JSX.Element => {
             </span>
           </h1>
           <div className="text-[1rem] font-normal text-opWhite flex flex-wrap">
-            <span className="mr-0.5 py-[3px]">
-              React.js
-            </span>
-            <span className="mr-0.5 py-[3px]">
-              JavaScript
-            </span>
-            <span className="mr-0.5 py-[3px]">
-              WebSpeech-Api
-            </span>
+            <span className="mr-0.5 py-[3px]">React.js</span>
+            <span className="mr-0.5 py-[3px]">JavaScript</span>
+            <span className="mr-0.5 py-[3px]">WebSpeech-Api</span>
             <span className="mr-0.5 py-[3px]">CSS3</span>
           </div>
           <div className="space-x-1 mt-1 flex">

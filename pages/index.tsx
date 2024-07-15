@@ -3,6 +3,7 @@ import { Navbar } from "@/components/Navbar/Navbar";
 import Heading from "@/components/Heading/Heading";
 import Projects from "../components/Projects/Projects";
 import Container from "@/components/Wrapper/Container";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -56,7 +57,7 @@ export default function Home() {
           {/* selected works */}
           <section
             id="works"
-            className="wrapperGen space-y-[2.46875rem] bg-recBlack rounded-[24px] md:space-y-48"
+            className="wrapperGen space-y-[2.46875rem] bg-recBlack rounded-[24px] md:space-y-48 flex flex-col"
           >
             <div className="flex flex-col space-y-[0.711875rem] md:flex-row md:space-y-[0] md:items-end">
               <Heading
@@ -73,6 +74,15 @@ export default function Home() {
             </div>
 
             <Projects />
+
+            <div className="mx-auto py-[2rem]">
+              <Link
+                href="/works"
+                className="bg-white px-[2rem] py-[1rem] rounded-[10px] active:opacity-[0.5] hover:opacity-[0.7]"
+              >
+                See all works
+              </Link>
+            </div>
           </section>
 
           <section className="wrapperGen space-y-[1.961875rem] md:grid md:grid-cols-2 md:space-x-2 md:space-y-[1rem]">
