@@ -18,7 +18,7 @@ const Projects: FC = (): JSX.Element => {
           />
         </div>
         <div className="p-[1.25rem] tracking-[0.01875rem]  text-1 md:text-[1.2rem] md:tracking-[0.0225rem]">
-          <h1 className="text-white font-medium flex flex-col">
+          <h1 className="flex flex-col font-medium text-white">
             DRACORA
             <span className="font-[400] text-[#ffffffdf]">
               An Admin Dashboard With Visualized Charts & Kanban
@@ -30,7 +30,7 @@ const Projects: FC = (): JSX.Element => {
             <span className="mr-0.5 py-[3px]">Firebase</span>
             <span className="mr-0.5 py-[3px]">Chart.js</span>
           </div>
-          <div className="space-x-1 mt-1 flex">
+          <div className="flex mt-1 space-x-1">
             <a
               href="https://dracora.vercel.app/"
               rel="noreferrer"
@@ -65,7 +65,7 @@ const Projects: FC = (): JSX.Element => {
           />
         </div>
         <div className="p-[1.25rem] tracking-[0.01875rem]  text-1 md:text-[1.2rem] md:tracking-[0.0225rem]">
-          <h1 className="text-white font-medium flex flex-col">
+          <h1 className="flex flex-col font-medium text-white">
             RETRO
             <span className="font-[400] text-[#ffffffdf]">
               Food E-commerce Web Application
@@ -78,7 +78,7 @@ const Projects: FC = (): JSX.Element => {
             <span className="mr-0.5 py-[3px]">Firebase</span>
             <span className="mr-0.5 py-[3px]">Tailwind</span>
           </div>
-          <div className="space-x-1 mt-1 flex">
+          <div className="flex mt-1 space-x-1">
             <a
               href="https://retro-ecommerce.vercel.app/"
               rel="noreferrer"
@@ -113,7 +113,7 @@ const Projects: FC = (): JSX.Element => {
           />
         </div>
         <div className="p-[1.25rem] tracking-[0.01875rem]  text-1 md:text-[1.2rem] md:tracking-[0.0225rem]">
-          <h1 className="text-white font-medium flex flex-col">
+          <h1 className="flex flex-col font-medium text-white">
             Country View
             <span className="font-[400] text-[#ffffffdf]">
               Browse Vital Informations About Countries
@@ -124,9 +124,9 @@ const Projects: FC = (): JSX.Element => {
             <span className="mr-0.5 py-[3px]">JavaScript</span>
             <span className="mr-0.5 py-[3px]">CSS3</span>
           </div>
-          <div className="borde space-x-1 mt-1 flex">
+          <div className="flex mt-1 space-x-1 borde">
             <a
-              href="https://country-view-er8gcmz3f-dhevine.vercel.app/"
+              href="https://daalu-view.vercel.app/"
               rel="noreferrer"
               target="_blank"
               className="text-white px-1 py-0.5 rounded-[6px] border"
@@ -159,7 +159,7 @@ const Projects: FC = (): JSX.Element => {
           />
         </div>
         <div className="p-[1.25rem] tracking-[0.01875rem]  text-1 md:text-[1.2rem] md:tracking-[0.0225rem]">
-          <h1 className="text-white font-medium flex flex-col">
+          <h1 className="flex flex-col font-medium text-white">
             Boldo
             <span className="font-[400] text-[#ffffffdf]">
               Boldo Multi-Page Template
@@ -171,7 +171,7 @@ const Projects: FC = (): JSX.Element => {
             <span className="mr-0.5 py-[3px]">CSS3</span>
             <span className="mr-0.5 py-[3px]">Swiper.js</span>
           </div>
-          <div className="borde space-x-1 mt-1 flex">
+          <div className="flex mt-1 space-x-1 borde">
             <a
               href="https://daalu-boldo.netlify.app/"
               rel="noreferrer"
@@ -206,13 +206,13 @@ const Projects: FC = (): JSX.Element => {
           />
         </div>
         <div className="p-[1.25rem] tracking-[0.01875rem]  text-1 md:text-[1.2rem] md:tracking-[0.0225rem]">
-          <h1 className="text-white font-medium">Wordle Clone</h1>
+          <h1 className="font-medium text-white">Wordle Clone</h1>
           <div className="text-[1rem] font-normal text-opWhite flex flex-wrap">
             <span className="mr-0.5 py-[3px]">React</span>
             <span className="mr-0.5 py-[3px]">JavaScript</span>
             <span className="mr-0.5 py-[3px]">Tailwind</span>
           </div>
-          <div className="space-x-1 mt-1 flex">
+          <div className="flex mt-1 space-x-1">
             <a
               href="https://dalu-wordle.netlify.app/"
               rel="noreferrer"
@@ -247,7 +247,7 @@ const Projects: FC = (): JSX.Element => {
           />
         </div>
         <div className="p-[1.25rem] tracking-[0.01875rem]  text-1 md:text-[1.2rem] md:tracking-[0.0225rem]">
-          <h1 className="text-white font-medium flex flex-col">
+          <h1 className="flex flex-col font-medium text-white">
             Wordlens
             <span className="font-[400] text-[#ffffffdf]">
               Search and pronounce meanings to words
@@ -259,7 +259,7 @@ const Projects: FC = (): JSX.Element => {
             <span className="mr-0.5 py-[3px]">WebSpeech-Api</span>
             <span className="mr-0.5 py-[3px]">CSS3</span>
           </div>
-          <div className="space-x-1 mt-1 flex">
+          <div className="flex mt-1 space-x-1">
             <a
               href="https://wordlens.netlify.app/"
               rel="noreferrer"

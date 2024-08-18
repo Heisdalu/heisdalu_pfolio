@@ -67,7 +67,7 @@ export const data = [
     title: "Country View",
     subTitle: "Browse Vital Informations About Countries",
     tools: ["React.js", "JavaScript", "CSS3"],
-    liveLink: "https://country-view-er8gcmz3f-dhevine.vercel.app/",
+    liveLink: "https://daalu-view.vercel.app/",
     githubLink: "https://github.com/Heisdalu/Country-view",
   },
   {
